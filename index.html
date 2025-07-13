@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="shortcut icon" href="https://i.postimg.cc/9fqYVvxh/logo.png" type="image/x-icon">
+</head>
+<body>
+    <main>
+        <aside class="sidebar " data-sidebar>
+            <div class="sidebar-info">
+                <figure class="avatar-box">
+                    <img src="assets/pfp.jpg" class="avatar-class">
+                </figure>
+                <div class="info-content">
+                    <p class="title">a1njo</p>
+                </div>
+
+                <button class="info-more-btn" data-sidebar-btn>
+                    <span>Contacts</span>
+                    <ion-icon name="chevron-down"></ion-icon>
+                </button>
+            </div>
+
+            <div class="sidebar-info-more">
+                <div class="separator"></div>
+
+                <ul class="contacts-list">
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="mail-outline"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Email</p>
+
+                            <a href="mailto:a1njo.official@gmail.com" class="contact-link">a1njo.official@gmail.com</a>
+                        </div>
+                    </li>
+
+
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="calendar-outline"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Birthday</p>
+
+                            <time datetime="">16 March, 2008</time>
+                        </div>
+                    </li>
+
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="location-outline"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Location</p>
+                            <p>Georgia, Tbilisi</p>
+                        </div>
+                    </li>
+                </ul>
+
+                <div class="separator"></div>
+            </div>
+        </aside>
+
+        <div class="main-content">
+            <nav class="navbar">
+                <ul class="navbar-list">
+                    <li class="navbar-item"><button class="navbar-link active" data-nav-link>About</button></li>
+                    <li class="navbar-item"><button class="navbar-link" data-nav-link>Resume</button></li>
+                    <li class="navbar-item"><button class="navbar-link" data-nav-link>Blog</button></li>
+                    <li class="navbar-item"><button class="navbar-link" data-nav-link>Contact</button></li>
+                </ul>
+            </nav>
+
+            <article class="about active" data-page="about">
+                <header>
+                    <h2 class="h2 article-title">About me</h2>
+                </header>
+
+                <section class="about-text">
+Greetings, My name is Nika Anjaparidze, a 16-year-old developer with a dedicated passion for coding.
+I’ve spent the last 3-4 years perfecting my skills in many technologies, while at the same time, 
+creating high quaility, functional projects with.
+I'm ready to bring my technical, skills and drive to your next project.
+see ya ;)
+                </section>
+
+                <section class="service">
+                    <h3 class="h3 service-title">Skills</h3>
+                        <div class="grid-container">
+                            <div class="about-grid-item">
+                                <center>
+                                    <img src="icons/html.png" class="languages">
+                                </center>
+                            </div>
+                            <div class="about-grid-item">
+                                <center>
+                                    <img src="icons/CSS-Logo-2011.png" class="languages">
+                                </center>
+                            </div>
+                            <div class="about-grid-item">
+                                <center>
+                                    <img src="icons/js.png" class="languages">
+                                </center>
+                            </div>
+                            <div class="about-grid-item">
+                                <center>
+                                    <img src="icons/bootstrap.png" class="languages">
+                                </center>
+                            </div>
+                            <div class="about-grid-item">
+                                <center>
+                                    <img src="icons/tailwind.png" class="languages">
+                                </center>
+                            </div>
+                            <div class="about-grid-item">
+                                <center>
+                                    <br><img src="icons/vue.png" class="languages">
+                                </center>
+                            </div>
+                            <div class="about-grid-item">
+                                <center>
+                                    <img src="icons/wordpress.png" class="languages">
+                                </center>
+                            </div>
+                            <div class="about-grid-item">
+                                <center>
+                                    <img src="icons/wix.png" class="languages">
+                                </center>
+                            </div>
+                            <div class="about-grid-item">
+                                <center>
+                                    <img src="icons/woocommerce.png" class="languages">
+                                </center>
+                            </div>
+                            <div class="about-grid-item">
+                                <center>
+                                    <img src="icons/linux.png" class="languages">
+                                </center>
+                            </div>
+                            <div class="about-grid-item">
+                                <center>
+                                    <img src="icons/figma.png" class="languages">
+                                </center>
+                            </div>
+                            <div class="about-grid-item">
+                                <center>
+                                    <img src="icons/canva.png" class="languages">
+                                </center>
+                            </div>
+                            <div class="about-grid-item">
+                                <center>
+                                    <img src="icons/python.png" class="languages">
+                                </center>
+                            </div>
+                            <div class="about-grid-item">
+                                <center>
+                                    <img src="icons/flask.svg" class="languages">
+                                </center>
+                            </div>
+                            <div class="about-grid-item">
+                                <center>
+                                    <img src="icons/bugbounty.png" class="languages">
+                                </center>
+                            </div>
+                        </div>
+                </section>
+
+
+
+                <div class="modal-container " data-modal-container>
+                    <div class="overlay " data-overlay></div>
+
+                    <section class="testimonials-modal">
+                        <button class="modal-close-btn" data-modal-close-btn><ion-icon name="close-outline"></ion-icon></button>
+
+                        <div class="modal-img-wrapper">
+                            <figure class="modal-avatar-box">
+                                <img src="https://i.postimg.cc/zGDHfn3G/avatar-1.png" alt="Daniel Lewis" width="80" data-modal-img>
+                            </figure>
+
+                            <img src="https://i.postimg.cc/mZ00RwX7/icon-quote.png" alt="quote icon">
+                        </div>
+
+                        <div class="modal-content">
+                            <h4 class="h3 modal-title" data-modal-title>Daniel Lewis</h4>
+                            <time datetime="2023-06-14">14 June, 2023</time>
+
+                            <div class="modal-text" data-modal-text>
+                                <p>Richard was hired to create a corporate identity. It's modern, clean and with a beautiful design that got a lot of praises from colleagues and visitors. We were very pleased with the work done. He has a lot of experience and is very concerned about the needs of client.</p>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+
+
+
+            </article>
+            
+            <article class="resume " data-page="resume">
+                <header>
+                    <h2 class="h2 article-title">Education</h2>
+                </header>
+
+                <section class="timeline">
+                    <div class="title-wrapper">
+
+                    </div>
+
+                    <ol class="timeline-list">
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">128 School</h4>
+                            <span>2015 - 2024</span>
+                        </li>
+
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">English Class</h4>
+                            <span>2014 - 2018</span>
+                        </li>
+
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">Goal Oriented Academy</h4>
+                            <span>2020 - 2022</span>
+                        </li>
+
+                         <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">Scientific Cyber Security Association</h4>
+                            <span>2022 - 2024</span>
+                        </li>
+
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">ITVET college</h4>
+                            <span>2024 - (on going)</span>
+                        </li>
+                    </ol><br>
+                </section>
+
+                <section class="timeline">
+                     <header>
+                    <h2 class="h2 article-title">Expirience</h2><br>
+                </header>
+
+                    <ol class="timeline-list">
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">Caucasus CTF</h4>
+                        </li>
+
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">CyberSec helper at GOA</h4>
+                        </li>
+
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">Fullstack wordpress developer at trendhub</h4>
+                        </li>
+
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">Ex developer MARUSA jewlery shop</h4>
+                        </li>
+
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">CEO of recovery house</h4>
+                        </li>
+
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">VARS HARDWARE deveolper</h4>
+                        </li>
+
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">Non Gambling Trading (NGT) web deveolper</h4>
+                        </li>
+                    </ol>
+                </section>
+
+                
+            </article>
+
+            <article>
+                <section class="projects">
+                    
+                    <div class="filter-select-box">
+                        <button class="filter-select " data-select>
+                            <div class="select-value" data-select-value></div>
+
+                            <div class="select-icon">
+                                <ion-icon name="chevron-down"></ion-icon>
+                            </div>
+                        </button>
+                    </div>
+                </section>
+            </article>
+
+            <article class="blog " data-page="blog">
+                <header>
+                    <h2 class="h2 article-title">Blog</h2>
+                    <p class="about-text">Showcase of my projects</p>
+                </header>
+
+                <section class="blog-posts">
+                    <ul class="blog-posts-list">
+                        <li class="blog-post-item">
+                            <a href="https://recoveryhouse.vercel.app/" target="_blank">
+                                    <figure class="blog-banner-box">
+                                        <img src="images/recoveryhouse.png" loading="lazy">
+                                    </figure>
+
+                                <div class="blog-content">
+                                    <h3 class="h3 blog-item-title">Recovery House</h3>
+                                    <p class="blog-text">Our team recovers data from formated or deleted drives and systems</p>
+                                </div>
+                            </a>
+                        </li>
+
+                        <li class="blog-post-item">
+                            <a href="https://ngt-official.vercel.app/" target="_blank">
+                                <figure class="blog-banner-box">
+                                    <img src="images/ngt.png" loading="lazy">
+                                </figure>
+
+
+                                <div class="blog-content">
+                                    <h3 class="h3 blog-item-title">NGT (Non gambling trading)</h3>
+                                    <p class="blog-text">Developer of NGT, small trading server, with expirienced people and high ROI signals</p>
+                                </div>
+                            </a>
+                        </li>
+
+                        <li class="blog-post-item">
+                            <a href="https://trendhub.ge" target="_blank">
+                                <figure class="blog-banner-box">
+                                    <img src="images/trendhub.png" alt="Design digest #80" loading="lazy">
+                                </figure>
+
+                                <div class="blog-content">
+                                
+                                    <h3 class="h3 blog-item-title">Trendhub</h3>
+                                    <p class="blog-text">Fullstack wordprss shop for new and trendy gadgets ;)</p>
+                                </div>
+                            </a>
+                        </li>
+
+                        <li class="blog-post-item">
+                            <a href="#">
+                                <figure class="blog-banner-box" style="border: 2px solid white;">
+                                    <h1 class="blog-banner-box-text">
+                                        no preview available
+                                    </h1>
+                                </figure>
+
+                                <div class="blog-content">
+                                    <h3 class="h3 blog-item-title">Maursa Jewlery Shop</h3>
+                                    <p class="blog-text">Handmade store by a small family</p>
+                                </div>
+                            </a>
+                        </li>
+
+                    </ul>
+                </section>
+            </article>
+
+            <article class="contact " data-page="contact">
+                <header>
+                    <h2 class="h2 article-title">Contact</h2>
+                </header>
+
+                <section class="mapbox" data-mapbox>
+                    <figure>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d119851.11781612702!2d44.724363666490184!3d41.72769271707166!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40440cd7e64f626b%3A0x61d084ede2576ea3!2z4YOX4YOR4YOY4YOa4YOY4YOh4YOY!5e1!3m2!1ska!2sge!4v1752434075041!5m2!1ska!2sge" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </figure>
+                </section>
+
+                <section class="contact-form">
+                    <h3 class="h3 form-title">Contact Form</h3>
+
+                    <form action="#" class="form" data-form>
+                        <div class="input-wrapper">
+                            <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+                            <input type="email" name="email" class="form-input" placeholder="Email Address" required data-form-input>
+                        </div>
+
+                        <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input=""></textarea>
+
+                        <button class="form-btn" type="submit" disabled data-form-btn>
+                            <ion-icon name="paper-plane"></ion-icon>
+                            <span>Send Message</span>
+                        </button>
+                    </form>
+                </section>
+            </article>
+        </div>
+    </main>
+
+    <script src="assets/script.js"></script>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
